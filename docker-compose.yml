@@ -10,7 +10,7 @@ services:
       REDMINE_DB_MYSQL: db
       REDMINE_DB_PASSWORD: example
       REDMINE_SECRET_KEY_BASE: supersecretkey
-      TZ: Asia/Yekaterinburg
+      TZ: Europe/Moscow
     volumes:
       - ./conf.d/database.yml:/usr/src/redmine/config/database.yml
       - ./themes:/usr/src/redmine/public/themes
